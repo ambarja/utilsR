@@ -48,4 +48,5 @@
  * INLA
  * gstat
  * blockCV
+ * smoothr
 
