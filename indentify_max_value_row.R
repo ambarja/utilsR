@@ -15,3 +15,8 @@ df %>%
  df %>% 
   rowwise() %>%
   mutate(row_max = names(.)[which.max(c_across(everything()))]) 
+# 03. Columns specific
+df %>% 
+  rowwise() %>%
+  mutate(row_max = names(.)[which.max(c_across(everything(vars = c(agua,luz))))])
+
