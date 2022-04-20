@@ -1,5 +1,5 @@
 # Ubigeo
-ubicode <- function(x){
+ubicode_dist <- function(x){
   if(nchar(as.vector(x)) == 6){
     x <- sprintf("%s",x)
   }else{
@@ -8,7 +8,7 @@ ubicode <- function(x){
 }
 
 # idmz
-ubicode <- function(x){
+ubicode_mz <- function(x){
   if(nchar(as.vector(x)) == 19){
     x <- sprintf("%s",x)
   }else{
