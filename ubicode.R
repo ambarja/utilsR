@@ -5,6 +5,7 @@ ubicode_dist <- function(x){
   }else{
     x <- sprintf("0%s",x)
   }
+  return(x)
 }
 
 # idmz
@@ -14,4 +15,5 @@ ubicode_mz <- function(x){
   }else{
     x <- sprintf("%s0",x)
   }
+  return(x)
 }
