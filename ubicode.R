@@ -20,7 +20,7 @@ ubicode_mz <- function(x){
 
 # Ubigeo - cp 
 
-ubicode_mz <- function(x){
+ubicode_cp <- function(x){
   if(nchar(as.vector(x)) == 10){
     x <- sprintf("%s",x)
   }else{
