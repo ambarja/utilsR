@@ -28,3 +28,13 @@ ubicode_cp <- function(x){
   }
   return(x)
 }
+
+# Zonal censal 
+ubicode_cp <- function(x){
+  if(nchar(as.vector(x)) == 15){
+    x <- sprintf("%s",x)
+  }else{
+    x <- sprintf("0%s",x)
+  }
+  return(x)
+}
